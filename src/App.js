@@ -19,12 +19,12 @@ function App() {
       {(typeof data.member === 'undefined') ? (
         <p>Loading...</p>
       ) : (
-        data.members.map((member, i) => (
+        data.member.map((member, i) => (
           <p key={i}>{member}</p>
         ))
       )}
     </div>
-  )
+  );
 }
 
 export default App
