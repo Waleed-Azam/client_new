@@ -16,7 +16,7 @@ function App() {
   }, [])
   return (
     <div>
-      {(typeof data.members === 'undefined') ? (
+      {(typeof data.member === 'undefined') ? (
         <p>Loading...</p>
       ) : (
         data.members.map((member, i) => (
